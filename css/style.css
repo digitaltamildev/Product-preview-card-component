@@ -1,0 +1,160 @@
+/* 1. Google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap");
+
+/* 2. Root */
+:root {
+  /* Primary */
+  --dark-cyan: hsl(158, 36%, 37%);
+  --cream: hsl(30, 38%, 92%);
+
+  /* Neutral */
+  --very-dark-blue: hsl(212, 21%, 14%);
+  --dark-grayish-blue: hsl(228, 12%, 48%);
+  --white: hsl(0, 0%, 100%);
+
+  --body-font: "Montserrat", sans-serif;
+  --body-font-size: 0.875rem;
+  --title-font: "Fraunces", sans-serif;
+
+  --font-regular: 500;
+  --font-bold: 700;
+}
+/* 3. Base */
+*,
+::before,
+::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--body-font);
+  font-size: var(--body-font-size);
+  background-color: var(--cream);
+  color: var(--dark-grayish-blue);
+  line-height: 1.6;
+}
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+
+h2 {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+  line-height: 1.1;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.product-preview {
+  background-color: var(--cream);
+}
+.container {
+  width: 100%;
+  max-width: 90rem;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40rem;
+  background-color: var(--white);
+  border-radius: 0.5rem;
+}
+
+.card__image {
+  width: 100%;
+  border-radius: 0.5rem 0 0 0.5rem;
+  display: block;
+}
+
+.card__right {
+  padding: 1.2rem;
+}
+
+.card__subtitle {
+  font-size: 0.5rem;
+  color: var(--dark-grayish-blue);
+}
+.card__title {
+  font-family: var(--title-font);
+  color: var(--very-dark-blue);
+}
+
+.card__description {
+  color: var(--dark-grayish-blue);
+  margin-bottom: 1rem;
+}
+.card__price {
+  display: flex;
+  gap: 2.4rem;
+  align-items: center;
+  margin-bottom: 1.2rem;
+}
+
+.card__discount-price {
+  font-family: var(--title-font);
+  font-size: 1.8rem;
+  color: var(--dark-cyan);
+}
+.card__regular-price {
+  font-family: var(--body-font);
+  font-size: 0.8rem;
+  font-weight: var(--font-normal);
+  text-decoration: line-through;
+}
+
+.card__btn {
+  display: flex;
+  gap: 0.7rem;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--dark-cyan);
+  padding: 0.7rem 2rem;
+  border-radius: 0.7rem;
+  color: var(--white);
+  cursor: pointer;
+  transition: 0.3s;
+}
+.card__btn:hover {
+  background-color: var(--dark-cyan);
+  filter: brightness(60%);
+}
+
+@media (max-width: 48rem) {
+  .card {
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+  }
+
+  .card__image {
+    border-radius: 0.5rem 0.5rem 0 0;
+  }
+}
