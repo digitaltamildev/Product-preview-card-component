@@ -59,9 +59,9 @@ img { display: block; }
 
 ## Author
 
-- Website - [Jeeva](https://www.digitallimat.com)
-- Frontend Mentor - [@digitallimat](https://www.frontendmentor.io/profile/digitallimat)
-- Twitter - [@digitallimat](https://www.twitter.com/digitallimat)
+- Digitaltamil.dev - [digitaltamildev](https://digitaltamil.dev)
+- Frontend Mentor - [@digitaltamildev](https://www.frontendmentor.io/profile/digitaltamildev)
+- Twitter - [@digitaltamildev](https://www.twitter.com/digitaltamildev)
 
 ## Acknowledgments
 
