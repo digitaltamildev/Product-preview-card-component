@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/profile/digitallimat)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/profile/digitaltamildev)
 - Live Site URL: [Github](https://digitaltamildev.github.io/Product-preview-card-component/)
 
 ## My process
