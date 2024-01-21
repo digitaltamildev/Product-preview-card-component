@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/profile/digitaltamildev)
-- Live Site URL: [Github](https://digitaltamildev.github.io/Product-preview-card-component/)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/profile/jeevatek)
+- Live Site URL: [Github](https://jeevatek.github.io/Product-preview-card-component/)
 
 ## My process
 
@@ -59,9 +59,9 @@ img { display: block; }
 
 ## Author
 
-- Digitaltamil.dev - [digitaltamildev](https://digitaltamil.dev)
-- Frontend Mentor - [@digitaltamildev](https://www.frontendmentor.io/profile/digitaltamildev)
-- Twitter - [@digitaltamildev](https://www.twitter.com/digitaltamildev)
+- JeevaTek - [jeevatek](https://tek.jeeva.ca)
+- Frontend Mentor - [@jeevatek](https://www.frontendmentor.io/profile/jeevatek)
+- Twitter - [@jeevatek](https://www.twitter.com/jeevatek)
 
 ## Acknowledgments
 
